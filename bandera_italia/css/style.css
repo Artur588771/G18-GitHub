@@ -1,0 +1,24 @@
+body{
+	background-color: white;	
+}
+.contorno{
+	border: solid 2px black;
+	width: 80vh;
+	height: 50vh;
+	display: flex;
+	flex-direction: row;	
+}
+.verde{
+	width: 33.33%;
+	height: 100%;
+	background-color: green;
+}
+.blanca{
+	width: 33.33%;
+	height: 100%;	
+}
+.rojo{
+	width: 33.33%;
+	height: 100%;
+	background-color: red;
+}
