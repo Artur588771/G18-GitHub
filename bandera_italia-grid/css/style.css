@@ -1,0 +1,22 @@
+body{
+	background-color: white;	
+}
+.contorno{
+	border: solid 2px black;
+	width: 80vh;
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-template-areas:'uno dos tres'			
+}
+.verde{
+	grid-area: uno;	
+	background-color: green;
+}
+.blanca{
+	grid-area: dos;	
+	background-color: white;
+}
+.rojo{
+	grid-area: tres;	
+	background-color: red;
