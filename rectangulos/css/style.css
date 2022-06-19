@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    align-items: stretch;
+}
+.abuelo{
+    border: solid 5px;
+    border-color: yellow;
+    width: 100%;
+    height: 97vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+.padre1{    
+    width: 50%;
+    height: 100%;
+}
+.padre2{    
+    width: 50%;
+    height: 100%;
+}
+.hijo1{
+    background-color: lightgreen;
+    width: 100%;
+    height: 25%;    
+}
+.hijo2{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 30%;
+}
+.hijo3{
+    background-color: darkorchid;
+    width: 100%;
+    height: 35%;
+}
+.hijo4{
+    background-color: darkslategray;
+    width: 100%;
+    height: 10%;
+}
+.hijo5{
+    background-color: gold;
+    width: 100%;
+    height: 50%;
+}
+.hijo6{
+    background-color: orange;
+    width: 100%;
+    height: 50%;
+}
+.hijo1, .hijo2, .hijo3, .hijo4, .hijo5, .hijo6{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}

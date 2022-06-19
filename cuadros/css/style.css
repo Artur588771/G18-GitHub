@@ -1,0 +1,73 @@
+body{
+    background-color: aliceblue;
+}
+.abuelo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.padre1{
+    background-color: antiquewhite;
+    border: solid 5px;
+    border-color: blue;
+    width: 400px;
+    height: 400px;
+    margin-left: 5%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.padre2{
+    background-color: antiquewhite;
+    border: solid 5px;
+    border-color: blue;
+    width: 400px;
+    height: 400px;
+    margin-right: 5%;        
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hijo1{
+    background-color: white;
+    border: solid 5px;
+    border-color: green;
+    width: 30%;
+    height: 30%;
+    margin: 3px;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hijo2{
+    background-color: white;
+    border: solid 5px;
+    border-color: orange;
+    width: 30%;
+    height: 30%;    
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.hijo3{
+    background-color: white;
+    border: solid 5px;
+    border-color: greenyellow;
+    width: 30%;
+    height: 30%;    
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+.nieto{
+    background-color: white;
+    border: solid 5px;
+    border-color: darkblue;
+    width: 20%;
+    height: 20%;    
+    margin: 3px;    
+}

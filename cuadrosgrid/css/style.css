@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+.cuadro{
+    width: 98%;
+    height: 98vh;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;    
+    background-color: white;
+    border: solid 1vh darkgoldenrod;    
+}
+.item1{
+    background-color: green;
+    grid-row: 1 / 1;
+}
+.item2{
+    background-color: dodgerblue;
+    grid-row: 1 / 8;
+}
+.item3{
+    background-color: mediumorchid;
+    grid-row: 1 / 1;
+}
+.item4{
+    background-color: black;
+    grid-row: 1 / 1;
+}
+.item5{
+    background-color: yellow;
+    grid-row: 1 / 1;
+}
+.item6{
+    background-color: orange;
+    grid-row: 4 / 4;
+    grid-column: 6 / 7;
+}
+.item7{
+    background-color: red;
+    grid-row: 1 / 1;
+    grid-column: 7 / 8;
+}
+.item8{
+    background-color: grey;
+    grid-row: 1 / 1;
+    grid-column: 8 / 9;
+}
+.item9{
+    background-color: greenyellow;
+    grid-row: 7 / 7;
+    grid-column: 9 / 10;
+}
+.item10{
+    background-color: darkgreen;
+    grid-row: 1 / 1;
+    grid-column: 10 / 11;    
+}
+.cuadro > div{
+    width: 100%;
+    height: 100%;    
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
